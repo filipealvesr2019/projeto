@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100&display=swap');
+                
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: ce;
+    background-color: #FFFFFF;
+    margin:0px;
+    padding:0px;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 5%;
+    
+}
+header img{
+    width: 250px;
+}
+
+header h1{
+    font-family: 'Times New Roman';
+                                                
+    font-style: bold;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 25px;
+}
+header h2{
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+    margin-top: 8px;
+    margin-bottom: 60px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+form label{
+    font-size: 28px;
+}
+form input{
+    width: 400px;
+}
+form input[type="email"]{
+    height: 40px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 700px;
+    border: 2px solid #000000;
+    border-radius: 1px;
+}
+
+form input[type="password"]{
+    height: 40px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 700px;
+    border: 2px solid #000000;
+    border-radius: 1px;
+}
+form input[value="Entrar"]{
+    height: 50px;
+    font-size: 25px;
+    margin-top: 25px;
+    background: #EFEFEF;
+    width: 180px;
+    border: 1.5px solid #000000;
+    border-radius: 5px;
+}
+form input[value="Entrar como provedor"]{
+    font-family: 700'Times New Roman';
+    height: 45px;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #EFEFEF;
+    width: 500px;
+    border: 1.5px solid #000000;
+    border-radius: 5px;
+}
+form h3{
+    margin-top: 40px;
+    margin-bottom: 45px;
+    font-size: 30px;
+}

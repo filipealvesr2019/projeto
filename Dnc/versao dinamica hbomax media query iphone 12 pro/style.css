@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0F0F0F;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img{
+    width: 80px;
+    margin-top: 10%;
+}
+
+header h1{
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+header h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 2px;
+}
+
+header h3{
+    
+    font-family: 'Inter';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 25px;;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-top: 8px;
+    margin-bottom:8px;
+}
+
+form h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+
+form input[type="text"]{
+    background: #7F7F7F;
+    border-radius: 25px;
+    width: 340px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    
+
+}
+
+form input[type="password"]{
+    background: #7F7F7F;
+    border-radius: 25px;
+    width: 340px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+form input[value="Entrar"]{
+    background: #8C77E0;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    margin-top: 18px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 32px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+form input[value="Entrar como provedor"]{
+    background: #8C77E0;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    width: 200px;
+    height: 32px;
+    font-size: 15px;
+    font-style: normal;
+    
+    color: #FFFFFF;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+form label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-right: 73%;
+    margin-top: 1px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2px;
+}
+
+@media screen and (max-width:844px){
+    form{
+        width:390px;
+    }
+}
