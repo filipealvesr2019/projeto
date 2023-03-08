@@ -2,13 +2,18 @@
 
 
 body {
-    background-image: url('./assets/images/fundo.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter';
-    height: 100%;
+    background-image: url("./assets/images/fundo.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter';
+        height: 100%;
 
+}
+
+#menu_principal{
+    display: flex;
+    display: inline-block;
 }
