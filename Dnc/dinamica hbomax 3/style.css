@@ -15,5 +15,21 @@ body {
 
 #menu_principal{
     display: flex;
-    display: inline-block;
+    align-items: center;
+}
+
+#logo{
+    margin-left: 600px;
+    
+}
+
+#menu{
+    color:#FFFFFF;
+    
+
+}
+
+#search{
+    color: #FFFFFF;
+   
 }
