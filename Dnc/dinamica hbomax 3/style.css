@@ -39,12 +39,13 @@ body {
 }
 
 #hboLogo{
+    height: 20px;
     margin-top: 30px;
     margin-left: 45px;
 }
 
 #barLeft{
-    color: #FFFFFF;
+    color: #e2e0e0;
 }
 
 
@@ -54,9 +55,9 @@ body {
    
 }
 #barRight a{
-    font-weight: bold;
+    font-weight: 400;
     font-size: 18px;
-    color: #FFFFFF;
+    color: #e2e0e0;
     padding-right: 30px;
 }
 
@@ -118,32 +119,38 @@ form label{
 
 #E-mail{
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 #Senha{
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
-input{
+form input{
     background: rgba(127, 127, 127, 0.75);
         border-radius: 25px;
-        height: 25px;
-        width: 600px;
+        height: 30px;
+        width: 400px;
 }
 
-input::placeholder{
-    color: #FFFFFF;
-    margin-left: 400px;
+input::placeholder {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-right: 100px;
 }
 
 form p{
     font-style: normal;
         font-weight: 400;
-        font-size: 20px;
+        font-size: 15px;
         
     
         color: #9b9e9a;
+        margin-top: 10px;
+        margin-bottom: 10px;
 }
 
 #butao{
@@ -162,7 +169,7 @@ form input[value="Entrar"]{
     font-weight: 400;
     font-size: 20px;
     height: 36px;
-    width: 400px;
+    width: 150px;
 
 }
 form input[value="Entrar como provedor"]{
@@ -175,106 +182,7 @@ form input[value="Entrar como provedor"]{
     font-size: 20px;
     height: 36px;
     margin-bottom: 5px;
-    width: 500px;
+    width: 250px;
 
 }
-    /* }
-nav ul{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-
-nav ul li:first-child,
-nav ul li:nth-child(2){
-   justify-content: flex-start;
-}
-nav ul li a{
-    display: block;
-    padding: 1rem;
-    color: white;
-    text-decoration: none;
-}
-
-nav ul li:last-child,
-nav ul li:nth-child(4){
-    justify-content: flex-end;
-}
-
-nav ul li img {
-    display: block;
-    max-height: 50px;
-    margin: 0 auto;
-    float: right;
-
-} */
-
-    #butao1 {
-
-        margin-left: 0;
-    }
-
-    #butao2 {
-
-        margin-right: ;
-    }
-
-
-
-
-
-    */
-
-    /* /* .menu_principal{
-    color: white;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
     
-}
-.menu_principal ul{
-    display: flex;
-    justify-content: space-between;
-}
-
-
-#menu{
-    color: white;
-}
-
-#search{
-    color: white;
-}
-
-#butao1{
-    color: white;
-} */
-    .menu_principal {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .navBar {
-        display: flex;
-        align-items: center;
-    }
-
-    .navBar li {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .navBar li:first-child {
-        margin-right: auto;
-    }
-
-    #menu {
-        color: white;
-    }
-
-    */
