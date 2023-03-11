@@ -135,29 +135,18 @@ input{
         color: #F5F5F5;
         margin-top: 20px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-around ;
+        margin-right: 100px;
 }
 
-#tx1{
-    margin-right: 10px;
-}
 
-#tx2{
-    margin-right: 10px;
-
-    
-}
-
-#tx3{
-    margin-right: 10px;
-}
 
 #tx4{
-    margin-right: 10px;
+    margin-left: 280px;
 }
 .material-symbols-outlined{
     margin-top: 10px;
-    margin-right: 5px;
+    margin-left: 10px;
 }
 
 #bar {
