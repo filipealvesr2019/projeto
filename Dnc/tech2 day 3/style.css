@@ -183,3 +183,109 @@ header{
         align-items: center;
 }
 
+
+#produto{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.vinho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.vinho img{
+    padding-bottom: -5px;
+}
+
+.vinho label{
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    
+        color: #F5F5F5;
+        margin-top: -35px;
+        margin-bottom: 20px;
+}
+
+.vinho input{
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+
+
+.cerveja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 130px;
+}
+
+.cerveja image{
+    margin-bottom: 800px;
+
+}
+
+.cerveja label{
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    
+        color: #F5F5F5;
+        margin-top: 8px;
+        margin-bottom: 15px;
+
+}
+
+.cerveja input{
+    width: 200px;
+}
+
+
+
+
+.refri{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: -30px;
+    margin-top: 50px;
+}
+
+
+.refri label{
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    
+        color: #F5F5F5;
+        margin-top: -5px;
+        margin-bottom: 10px;
+}
+
+
+
+.refri input{
+    width: 200px;
+}
