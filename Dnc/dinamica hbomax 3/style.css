@@ -10,12 +10,30 @@
 
 body {
     font-family: 'Inter';
-    background-image: url("./assets/images/fundo.png");
-    background-repeat: no-repeat;
     
-    background-size: cover;
-    background-attachment: fixed;
-    opacity: 0.8;
+   
+}
+
+
+.imagem{
+    position: relative;
+    background-image: url("./assets/images/fundo.png");
+        background-repeat: no-repeat;
+    
+        background-size: cover;
+        background-attachment: fixed;
+        
+}
+
+.imagem::before{
+    content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: inherit;
+        opacity: 0.5;
 }
 
 
