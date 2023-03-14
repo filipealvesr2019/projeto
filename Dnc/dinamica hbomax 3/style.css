@@ -50,7 +50,7 @@ main{
 }
 
 #barLeft{
-    color: #e2e0e0;
+    color: #FFFFFF;
 }
 
 
@@ -62,7 +62,7 @@ main{
 #barRight a{
     font-weight: 400;
     font-size: 15px;
-    color: #e2e0e0;
+    color:#FFFFFF;
     padding-right: 30px;
 }
 
