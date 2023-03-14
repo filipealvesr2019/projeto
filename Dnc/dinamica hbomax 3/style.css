@@ -16,6 +16,11 @@ body {
     background-attachment: fixed;
 }
 
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
 #barLeft{
     margin-right: 0px;
     margin-top: 30px;
@@ -39,9 +44,9 @@ body {
 }
 
 #hboLogo{
-    height: 20px;
+    height: 27px;
     margin-top: 30px;
-    margin-left: 45px;
+    margin-left: 40px;
 }
 
 #barLeft{
@@ -56,13 +61,10 @@ body {
 }
 #barRight a{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     color: #e2e0e0;
     padding-right: 30px;
 }
-
-
-
 
 main{
     display: flex;
@@ -77,24 +79,28 @@ main{
     align-items: center;
     font-style: normal;
         font-weight: 700;
-        font-size: 30px;
+        font-size: 38px;
         line-height: 65px;
         display: flex;
         flex-direction: column;
     
-        color: #FFFFFF;
+        color: #eee8e8;
+        margin-right: 65px;
 
 }
 
 #topo b{
     font-style: normal;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 17px;
         line-height: 35px;
         display: flex;
         flex-direction: column;
+        align-items: center;
     
-        color: #FFFFFF;
+        color: #eceaea;
+        margin-right: 50px;
+        margin-bottom: -20px;
 }
 
 form{
@@ -109,12 +115,13 @@ form label{
     font-style: normal;
         font-weight: 400;
         font-size: 20px;
-        line-height: 40px;
+       
 
     
         color: #FFFFFF;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 15px;
+        margin-bottom: 8px;
+        margin-left: 8px;
 }
 
 #E-mail{
@@ -126,6 +133,7 @@ form label{
     display: flex;
     justify-content: left;
 }
+
 form input{
     background: rgba(127, 127, 127, 0.75);
         border-radius: 25px;
@@ -144,12 +152,12 @@ input::placeholder{
 form p{
     font-style: normal;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 18px;
         
     
-        color: #9b9e9a;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        color: #868484;
+        margin-top: 20px;
+        margin-bottom: 15px;
 }
 
 #butao{
@@ -162,7 +170,7 @@ form input[value="Entrar"]{
     background: linear-gradient(90deg, #A18CD1 0%, #FBC2EB 100%);
     box-shadow: 0px 0.2px 0.2px rgba(0, 0, 0, 0.25);
     border-radius: 25px;
-    margin-top: 20px;
+    margin-top: 35px;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -178,6 +186,7 @@ form input[value="Entrar como provedor"]{
     font-weight: 400;
     font-size: 20px;
     height: 36px;
+    margin-top: 20px;
     margin-bottom: 5px;
     width: 250px;
 
