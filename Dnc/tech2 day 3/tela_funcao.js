@@ -4,8 +4,8 @@ function maioridade(){
 
    
    
-    if (nao !== sim){
-        var sim = document.getElementById('pagina2')
+    if (sim !== nao){
+        var sim = document.getElementById('sim')
         sim.src = "tela_escolha.html"
 
     }else{

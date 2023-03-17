@@ -173,7 +173,7 @@ header{
 #pagina2{
     background: #CA7900;
         border-radius: 40px;
-        width: 800px;
+        width: 1100px;
         height: 180px;
         margin-top: 100px;
         margin-bottom: 50px;
@@ -199,7 +199,8 @@ header{
 }
 
 .vinho img{
-    padding-bottom: -5px;
+    height: 200px;
+    padding-bottom: 20px;
 }
 
 .vinho label{
@@ -232,8 +233,9 @@ header{
     margin-right: 130px;
 }
 
-.cerveja image{
-    margin-bottom: 800px;
+.cerveja img{
+    height: 130px;
+    margin-bottom: 20px;
 
 }
 
@@ -265,7 +267,12 @@ header{
     flex-direction: column;
     align-items: center;
     margin-right: -30px;
-    margin-top: 50px;
+    margin-top: 30px;
+}
+
+
+.refri img{
+    height: 150px;
 }
 
 
@@ -292,6 +299,19 @@ header{
 
 
 
-#resultado{
-    
+.resultado{
+    background: #CA7900;
+        border-radius: 40px;
+        width: 800px;
+        height: 180px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.resultado form label{
+    font-size: 25px;
 }
