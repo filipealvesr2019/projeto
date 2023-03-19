@@ -52,7 +52,7 @@ main form label{
     font-family: 'Raleway';
         font-style: normal;
         font-weight: 400;
-        font-size: 30px;
+        font-size: 28px;
         line-height: 53px;
         /* identical to box height */
     
@@ -98,14 +98,12 @@ input{
     font-family: 'Raleway';
         font-style: normal;
         font-weight: 600;
-        font-size: 25px;
+        font-size: 22px;
         line-height: 30px;
         align-items: center;
     
         color: #F5F5F5;
-        margin-left: 40px;
-        margin-right: 50px;
-        margin: 18px;
+        margin: 15px 25px 0px 40px;
 }
 
 #h1{
