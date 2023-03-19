@@ -1,3 +1,4 @@
+var maioridade 
 function maioridade(){
     var sim = document.getElementById('Sim')
     var nao = document.getElementById('Nao')
