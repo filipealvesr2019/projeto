@@ -11,7 +11,7 @@ function maioridade(){
 
     }else{
         var maioridade = document.getElementById('nao')
-        nao.src = "resultado.html"
+        nao.src = "tela_resultado.html"
     }
 
 
