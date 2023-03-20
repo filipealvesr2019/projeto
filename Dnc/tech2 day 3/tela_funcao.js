@@ -1,19 +1,9 @@
 var maioridade 
 function maioridade(){
-    var sim = document.getElementById('Sim')
-    var nao = document.getElementById('Nao')
+    window.location.href = "tela_escolha.html"
 
-   
-   
-    if (sim !== nao){
-        var sim = document.getElementById('sim')
-        sim.src = "tela_escolha.html"
+}
 
-    }else{
-        var maioridade = document.getElementById('nao')
-        nao.src = "tela_resultado.html"
-    }
-
-
-
+function menoriadade(){
+    window.location.href = "tela_menoridade.html"
 }

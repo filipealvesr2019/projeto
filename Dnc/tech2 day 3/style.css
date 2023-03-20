@@ -311,7 +311,7 @@ header{
 
 
 
-.tela_resultado{
+.tela_menoridade{
     background: #CA7900;
         border-radius: 40px;
         width: 1150px;
@@ -324,13 +324,13 @@ header{
         align-items: center;
 }
 
-.tela_resultado img{
+.tela_menoridade img{
     margin-top: -60px;
     margin-left: 40px;
 }
 
 
-.tela_resultado label{
+.tela_menoridade label{
     font-size: 25px;
     color: #FFFFFF;
     display: flex;
