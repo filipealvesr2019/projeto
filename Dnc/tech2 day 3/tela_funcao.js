@@ -18,12 +18,6 @@ document.getElementById('nao').addEventListener("click",
 )
 
 
-
-
-
-
-
-
 //function maioridade(){
   //  window.location.href = "tela_escolha.html"
 
