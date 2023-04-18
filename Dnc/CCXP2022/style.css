@@ -1,0 +1,34 @@
+
+body{
+    background-color: #FFD900;
+    font-family: Verdana;
+}
+header{
+    padding: 15px;
+
+}
+#sideA{
+    display: grid;
+    grid-auto-flow: column;
+    
+    
+   
+}
+#descricao{
+    text-align: center;
+    background: #514988;
+    color: white;
+}
+@media only screen and (max-width: 1366px) and (min-width: 768px){
+    
+        
+    #sideA {
+            text-align: center;
+            display: grid;
+            grid-auto-flow: column;
+            grid-auto-columns: 50vh;
+            margin: 5px;
+            margin-left: -15px;
+            padding-top: 10px;
+        }
+}
