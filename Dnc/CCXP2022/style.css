@@ -2,6 +2,8 @@
 body{
     background-color: #FFD900;
     font-family: Verdana;
+    margin: 0;
+    padding: 0;
 }
 header{
     padding: 15px;
@@ -9,7 +11,7 @@ header{
 }
 #sideA{
     display: grid;
-    grid-auto-flow: column;
+    
     
     
    
@@ -19,9 +21,36 @@ header{
     background: #514988;
     color: white;
 }
-@media only screen and (max-width: 1366px) and (min-width: 768px){
+
+#titulo{
+    margin-top: 30px;
+    color: #F3C61F;
     
-        
+}
+#data{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+#conteudo{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+#countDown {
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    background-color: white;
+    margin-right: -15px;
+}
+
+#sideB{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 760px){
     #sideA {
             text-align: center;
             display: grid;
@@ -31,4 +60,36 @@ header{
             margin-left: -15px;
             padding-top: 10px;
         }
+    
+        #descricao {
+            padding-top: 1rem;
+            padding-left: 2rem;
+            padding-right: 1rem;
+            padding-bottom: 1rem;
+            height: 25rem;
+            width: 35rem;
+    
+        }
+                #titulo {
+                    margin-top: 5px;
+                    color: #F3C61F;
+                    font-size: 2rem;
+                }
+                #sideB{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: end;
+                    width: 34rem;
+                    margin-left: 20rem;
+                    
+                }
+                .cd-item{
+                    font-size: 1.5;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                }
+                .subtitle{
+                    text-align: center;
+                }
 }
+
