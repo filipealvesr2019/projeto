@@ -39,6 +39,7 @@ header{
 #countDown {
     display: grid;
     grid-auto-flow: column;
+    
     text-align: center;
     background-color: white;
     margin-right: -15px;
@@ -48,8 +49,17 @@ header{
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-color: white;
+    display: block;
 }
-
+#subtitle {
+    text-align: center;
+    background-color: white;
+    color: #E33881;
+}
+#video{
+    background-color: white;
+}
 @media only screen and (max-width: 1440px) and (min-width: 760px){
     #sideA {
             text-align: center;
@@ -79,8 +89,9 @@ header{
                     display: flex;
                     flex-direction: column;
                     justify-content: end;
-                    width: 34rem;
+                    width: 40rem;
                     margin-left: 20rem;
+                    background-color: white;
                     
                 }
                 .cd-item{
@@ -88,8 +99,13 @@ header{
                     margin-top: 5px;
                     margin-bottom: 5px;
                 }
-                .subtitle{
+                #subtitle{
                     text-align: center;
+                    background-color: white;
+                    color: #E33881;
+                }
+                #video{
+                    background-color: white;
                 }
 }
 
