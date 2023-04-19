@@ -4,112 +4,15 @@ body{
     font-family: Verdana;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 header{
     padding: 15px;
 
 }
 #sideA{
-    display: grid;
-    
-    
-    
-   
-}
-#descricao{
-    text-align: center;
-    background: #514988;
-    color: white;
-}
-
-#titulo{
-    margin-top: 30px;
-    color: #F3C61F;
-    
-}
-#data{
-    margin-top: 1rem;
-    font-size: 1.2rem;
-}
-
-#conteudo{
-    margin-top: 1rem;
-    font-size: 1rem;
-}
-#countDown {
-    display: grid;
-    grid-auto-flow: column;
-    
-    text-align: center;
-    background-color: white;
-    margin-right: -15px;
-}
-
-#sideB{
     display: flex;
     flex-direction: column;
-    text-align: center;
-    background-color: white;
-    display: block;
-}
-#subtitle {
-    text-align: center;
-    background-color: white;
-    color: #E33881;
-}
-#video{
-    background-color: white;
 }
 @media only screen and (max-width: 1440px) and (min-width: 760px){
-    #sideA {
-            text-align: center;
-            display: grid;
-            grid-auto-flow: column;
-            grid-auto-columns: 50vh;
-            margin: 5px;
-            margin-left: -15px;
-            padding-top: 10px;
-        }
-    
-        #descricao {
-            padding-top: 1rem;
-            padding-left: 2rem;
-            padding-right: 1rem;
-            padding-bottom: 1rem;
-            height: 25rem;
-            width: 35rem;
-    
-        }
-                #titulo {
-                    margin-top: 5px;
-                    color: #F3C61F;
-                    font-size: 2rem;
-                }
-                #sideB{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: end;
-                    width: 40rem;
-                    margin-left: 20rem;
-                    background-color: white;
-                    
-                }
-                .cd-item{
-                    font-size: 1.5;
-                    margin-top: 5px;
-                    margin-bottom: 5px;
-                }
-                #subtitle{
-                    text-align: center;
-                    background-color: white;
-                    color: #E33881;
-                }
-                #video{
-                    background-color: white;
-                }
-                #ingressos{
-                    display: flex;
-                    flex-wrap: wrap;
-                }
 }
-
