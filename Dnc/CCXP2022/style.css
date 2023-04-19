@@ -107,5 +107,9 @@ header{
                 #video{
                     background-color: white;
                 }
+                #ingressos{
+                    display: flex;
+                    flex-wrap: wrap;
+                }
 }
 
