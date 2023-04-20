@@ -39,15 +39,14 @@ header{
 #sideC{
     
 }
-#ingressos{
-    
+#ingressos img{
+    grid-template-columns: 1fr 1fr;
     text-align: center;
     
 
 }
-#img img{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+#img{
+    display: block;
     
 
     width: 50%;
@@ -62,6 +61,18 @@ img{
     width: 50%;
     
 
+}
+#img{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr;
+    display: block;
+}
+.text-wrap img{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr ;
+    width:50%;
 }
 @media only screen and (max-width: 1440px) and (min-width: 760px){
 }
