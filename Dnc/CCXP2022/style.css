@@ -113,7 +113,7 @@ border: 0;
 border-radius: 10px;
 background: #514988;
 height: 4rem;
-width: 15rem;
+width: 18rem;
 
 }
 #btn{
@@ -125,4 +125,29 @@ width: 15rem;
 }
 
 @media only screen and (max-width: 1440px) and (min-width: 760px){
+    #sideA{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+    #descricao{
+        display: flex;
+        flex-direction: column;
+        
+        width: 80%;
+    }
+
+    #video{
+        width: 90%;
+        
+    }
+
+    #sideB{
+        display: flex;
+        flex-direction: column;
+    }
+    #sideC{
+        display: flex;
+        flex-direction: row;
+    }
 }
