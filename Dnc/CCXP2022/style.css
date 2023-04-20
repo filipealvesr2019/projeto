@@ -13,11 +13,53 @@ header{
 
 }
 
+ #alinhar img{
+    height: 2rem;
+    height: 1%;
+}
 #descricao{
     display: flex;
     flex-direction: column;
     background-color: #514988;
     text-align: center;
+}
+#titulo{
+    color: #F3C61F;
+    font-size: 1.5rem;
+}
+#data{
+    color: #FFFFFF;
+    font-size: 0.7rem;
+    margin-top: -0.5rem;
+}
+#conteudo{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+#subtitle-cards{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    color: #F3C61F;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#subtitle{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    color: #E33881;
+    margin-top: -1.5rem;
+    font-size: 1rem;
 }
 #sideB{
    display: flex;
@@ -33,46 +75,55 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    color: #514988;
+    font-size: 2rem;
     
 
 }
 #sideC{
-    
-}
-#ingressos img{
-    grid-template-columns: 1fr 1fr;
-    text-align: center;
-    
-
-}
-#img{
-    display: block;
-    
-
-    width: 50%;
-    padding: 1rem;
-    
-
-    
-
-    
-}
-img{
-    width: 50%;
-    
-
-}
-#img{
     display: grid;
-    grid-auto-flow: column;
-    grid-template-columns: 1fr 1fr;
-    display: block;
+    grid-auto-flow: row;
+}
+
+.text-wrap{
+    display: grid;
+    grid-template-columns: auto auto;
+
+
+    padding: 1rem;
+    margin-bottom: 2rem;
+    
+
+    
+
+    
+
+    
 }
 .text-wrap img{
-    display: grid;
-    grid-auto-flow: column;
-    grid-template-columns: 1fr ;
-    width:50%;
+    width: 90%;
+    
+
 }
+button{
+font-size: 1.1rem;
+border: 0;
+border-radius: 10px;
+background: #514988;
+height: 4rem;
+width: 15rem;
+
+}
+#btn{
+
+    
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    color:#FFFFFF;
+}
+
 @media only screen and (max-width: 1440px) and (min-width: 760px){
 }
