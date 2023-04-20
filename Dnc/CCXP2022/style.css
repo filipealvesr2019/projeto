@@ -17,9 +17,17 @@ header{
     display: flex;
     flex-direction: column;
     background-color: #514988;
+    text-align: center;
 }
 #sideB{
-   
+   display: flex;
+   flex-direction:column;
+   text-align: center;
+}
+#sideC{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 #countDown{
     display: flex;
@@ -32,19 +40,26 @@ header{
     
 }
 #ingressos{
-    display: flex;
-    flex-: column;
+    
+    text-align: center;
+    
 
 }
-#img {
+#img img{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly
+
+    width: 50%;
+    padding: 1rem;
+    
+
     
 
     
 }
 img{
-    width: 20%;
+    width: 50%;
     
 
 }
