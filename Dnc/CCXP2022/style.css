@@ -1,6 +1,6 @@
 
 body{
-    background-color: #FFD900;
+    
     font-family: Verdana;
     margin: 0;
     padding: 0;
@@ -8,11 +8,23 @@ body{
 }
 header{
     padding: 15px;
+    background-color: #FFD900;
+
 
 }
-#sideA{
+
+#descricao{
     display: flex;
     flex-direction: column;
+    background-color: #514988;
+}
+#sideB{
+   
+}
+#countDown{
+    display: flex;
+    flex-wrap: nowrap ;
+    text-align: center;
 
 }
 #sideC{
@@ -20,7 +32,7 @@ header{
 }
 #ingressos{
     display: flex;
-    flex-direction: column;
+    flex-: column;
 
 }
 #img {
