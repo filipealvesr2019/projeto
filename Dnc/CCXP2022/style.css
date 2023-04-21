@@ -107,23 +107,28 @@ header{
     
 
 }
-button{
+#btn{
 font-size: 1.1rem;
 border: 0;
 border-radius: 10px;
 background: #514988;
 height: 4rem;
-width: 18rem;
+width: 15rem;
 
 }
 #btn{
-
-    
+    display:flex;
+    text-align: center;
+    justify-content: center;
     margin: 0 auto;
     margin-bottom: 5rem;
     color:#FFFFFF;
+    
 }
-
+strong{
+    display: flex;
+    text-align: center;
+}
 @media only screen and (max-width: 1440px) and (min-width: 760px){
     #sideA{
         display: flex;
@@ -137,17 +142,49 @@ width: 18rem;
         width: 80%;
     }
 
-    #video{
-        width: 90%;
+    video{
+        width: 95%;
+        justify-content: right;
         
     }
 
     #sideB{
         display: flex;
         flex-direction: column;
+        
+    }
+    #countDown p{
+        font-size: 2.7rem;
+    }
+    p{
+        font-size: 1.6rem;
+        text-align: center;
     }
     #sideC{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        
+
     }
+    #subtitle-cards{
+        display: flex;
+        justify-content: left;
+        padding: 3rem;
+        margin-top: -1rem;
+        font-size: 1.2rem;
+        justify-content: left;
+    }
+    .text-wrap{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+        grid-gap: 5px;
+        width: 45%;
+        height: 50%;
+        margin-top: -2rem;
+    }
+        #btn{
+        width: 50rem;
+    }
+
+
 }
