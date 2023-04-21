@@ -112,23 +112,16 @@ font-size: 1.1rem;
 border: 0;
 border-radius: 10px;
 background: #514988;
-height: 4rem;
-width: 15rem;
+display:flex;
+text-align: center;
+justify-content: center;
+margin: 0 auto;
+margin-bottom: 5rem;
+color:#FFFFFF;
 
-}
-#btn{
-    display:flex;
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
-    margin-bottom: 5rem;
-    color:#FFFFFF;
     
 }
-strong{
-    display: flex;
-    text-align: center;
-}
+
 @media only screen and (max-width: 1440px) and (min-width: 760px){
     #sideA{
         display: flex;
