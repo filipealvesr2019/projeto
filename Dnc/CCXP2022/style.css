@@ -13,9 +13,9 @@ header{
 
 }
 
- #alinhar img{
-    height: 2rem;
-    height: 1%;
+#alinhar {
+    width: 8rem;
+    
 }
 #descricao{
     display: flex;
@@ -108,19 +108,23 @@ header{
 
 }
 #btn {
-font-size: 1.1rem;
+font-size: clamp(1rem,1.5vw,1rem );
 border: 0;
 border-radius: 10px;
 background: #514988;
-display:flex;
+display: flex;
 text-align: center;
 justify-content: center;
 margin: 0 auto;
 margin-bottom: 5rem;
 color:#FFFFFF;
+ width:15rem;
+ height: 3rem;
+ line-height: 3rem;
 
     
 }
+
 
 @media only screen and (max-width: 1440px) and (min-width: 760px){
     #sideA{
