@@ -233,27 +233,34 @@ header {
 
     .text-wrap {
         display: grid;
-        grid-template-columns: repeat(4,1fr);
-        grid-gap: 10px;
-     
-        padding: 0.3rem;
+        grid-auto-flow: column;
+        grid-template-columns: repeat(4,auto);
+        grid-gap: 0px;
+        padding-left: 4rem;
+        
+        width: 40rem;
 
     }
-    .text-wrap img{
-        height: 10rem;
-
-    }
+   
     #btn {
         width: 20rem;
         height: 5rem;
         line-height: 5rem;
+        margin-top: 5rem;
+    }
+        
+    #btn:hover{
+        background-color: #FFD900;
     }
     #subtitle-cards{
         display: flex;
         flex-direction: column;
         text-align: left;
-        padding-left: 2.5rem;
-        font-size: 1.3rem;
+       
     
+    }
+    #subtitle-cards strong{
+        padding-left: 4rem;
+        font-size: 1.3rem;
     }
 }
