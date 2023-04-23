@@ -233,13 +233,16 @@ header {
 
     .text-wrap {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 5px;
-        width: 45%;
-        height: 50%;
-        margin-top: 2rem;
-    }
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 10px;
+     
+        padding: 0.3rem;
 
+    }
+    .text-wrap img{
+        height: 10rem;
+
+    }
     #btn {
         width: 20rem;
         height: 5rem;
@@ -249,5 +252,8 @@ header {
         display: flex;
         flex-direction: column;
         text-align: left;
+        padding-left: 2.5rem;
+        font-size: 1.3rem;
+    
     }
 }
