@@ -339,7 +339,7 @@ header {
     #countDown p {
         font-size: 2.4rem;
         margin-top: 5rem;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
 
     }
 
@@ -352,11 +352,11 @@ header {
     }
 
     #aviso {
-
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
         font-size: 1.2rem;
-
         text-align: left;
-        padding-left: 2rem;
+        padding-left: 2.5rem;
 
     }
 
