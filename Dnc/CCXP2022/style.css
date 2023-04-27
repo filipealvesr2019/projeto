@@ -702,13 +702,47 @@ header {
 @media only screen and (max-width: 960px) and (min-width: 600px) and (orientation: Portrait){
     #titulo{
         font-size: 2.8rem;
+        margin-top: 1.5rem;
     }
     #data{
         font-size: 1.3rem;
+        margin-top: -1rem;
+        margin-bottom: 2.5rem;
     }
     #conteudo{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         line-height: 1.5rem;
     }
 
+    .text-wrap img{
+        width: 70%;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        padding-left: 3rem;
+        padding-top: 1rem;
+    }
+    #countDown{
+        font-size: 2rem;
+    }
+    #aviso{
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+    }
+    #sideC{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #btn{
+        width:20rem;
+        height: 5rem;
+        line-height: 5rem;
+        border-radius: 15px;
+    }
+    #subtitle-cards{
+        font-size: 1.2rem;
+        text-align: center;
+    }
 }
