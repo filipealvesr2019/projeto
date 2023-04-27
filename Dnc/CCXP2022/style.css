@@ -40,14 +40,15 @@ header {
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 400;
-    font-size: clamp(0.5rem, 1.5vw, 1rem);
-    line-height: 1.3rem;
+    font-size: 0.5rem;
+    line-height: 0.7rem;
     display: flex;
     justify-content: center;
     text-align: center;
 
     color: #FFFFFF;
     margin-bottom: 2rem;
+    white-space: nowrap;
 }
 
 #subtitle-cards {
@@ -136,7 +137,13 @@ header {
 
 
 }
+@media only screen and (max-width: 653px) and (min-width: 280px) and (orientation: lanscape){
+    #sideA{
 
+        display: flex;
+        flex-direction: row;
+    }
+}
 @media only screen and (max-width: 2340px) and (min-width: 1080px) and (orientation: portrait) {
     header {
         height: 3rem;
@@ -267,7 +274,7 @@ header {
     }
 }
 
-@media only screen and (max-width: 1366px) and (min-width: 720px) {
+@media only screen and (max-width: 1366px) and (min-width: 768px) {
     header {
         height: 3rem;
     }
@@ -656,5 +663,22 @@ header {
     #subtitle-cards strong {
         padding-left: 4rem;
         font-size: 1.3rem;
+    }
+}
+
+
+@media only screen and (max-width: 658px) and (min-width: 320px){
+    #titulo{
+        font-size: 1.8rem;
+    }
+
+    #data{
+        font-size: 0.9rem;
+        margin-top: -0.5rem;
+    }
+    #conteudo{
+        font-size: 0.7rem;
+        white-space: nowrap;
+        line-height: 1rem;
     }
 }
