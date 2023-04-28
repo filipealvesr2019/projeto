@@ -571,6 +571,9 @@ header {
         margin-top: -5rem;
         display: block;
     }
+    #conteudo{
+        font-size: 3rem;
+    }
     #sideA {
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
@@ -629,10 +632,11 @@ header {
     #btn{
         margin-top:35rem;
         margin-left: -30rem;
+        
     }
-.text-wrap img{
-        width: 80%;
-        display: block;
+.imagem{
+        width: 100%;
+
     } 
 }
 
@@ -712,10 +716,14 @@ header {
 
 @media only screen and (max-width: 1600px) and (min-width: 720px) and (orientation: Portrait){
     #titulo{
-            font-size: 3.5rem;
+            font-size: 4rem;
+    }
+    #data{
+        font-size: 1.5rem;
+        margin-top: -2.5rem;
     }
     #conteudo{
-        font-size: 1.3rem;
-        line-height:1.5rem;
+        font-size: 1.5rem;
+        line-height:1.8rem;
     }
 }
