@@ -705,3 +705,13 @@ header {
         text-align: center;
     }
 }
+
+@media only screen and (max-width: 1600px) and (min-width: 720px) and (orientation: Portrait){
+    #titulo{
+            font-size: 3.5rem;
+    }
+    #conteudo{
+        font-size: 1.3rem;
+        line-height:1.5rem;
+    }
+}
