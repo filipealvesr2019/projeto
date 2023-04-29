@@ -1001,3 +1001,26 @@ header {
         }
 
     }
+
+@media only screen and (max-width: 1280px) and (min-width: 800px) and (orientation: Portrait) {
+    #titulo {
+        font-size: 4rem;
+    }
+
+    #data {
+        font-size: 1.5rem;
+        margin-top: -2.5rem;
+    }
+
+    #conteudo {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+    #descricao{
+        width: 60rem;
+    }
+    video{
+        background-image:cover;
+        width: 52rem;
+    }
+}
