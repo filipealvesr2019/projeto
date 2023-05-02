@@ -26,3 +26,44 @@ function countDown(){
 }
 countDown();
 setInterval(countDown, 1000);
+
+function addKey()
+{
+    document.addEventListener('keydown', (event) => {
+    var ingresso1 = document.getElementById("quinta");
+    var ingresso2 = document.getElementById("sexta");
+    var ingresso3 = document.getElementById("sabado");
+    var ingresso4 = document.getElementById("domingo");
+
+    var code = event.code;
+    if (code == 'digite1'){
+        ingresso1.classList.toggle("card-highlight")
+        ingresso1.classList.remove("card-highlight")
+        ingresso1.classList.remove("card-highlight")
+        ingresso1.classList.remove("card-highlight")
+    }
+
+     if (code == 'digite2'){
+        ingresso1.classList.remove("card-highlight")
+        ingresso1.classList.toggle("card-highlight")
+        ingresso1.classList.remove("card-highlight")
+        ingresso1.classList.remove("card-highlight")
+    }
+
+     if (code == 'digite3'){
+        ingresso1.classList.remove("card-highlight")
+        ingresso1.classList.remove("card-highlight")
+        ingresso1.classList.toggle("card-highlight")
+        ingresso1.classList.remove("card-highlight")
+    }
+
+     if (code == 'digite4'){
+        ingresso1.classList.remove("card-highlight")
+        ingresso1.classList.remove("card-highlight")
+        ingresso1.classList.remove("card-highlight")
+        ingresso1.classList.toggle("card-highlight")
+    }
+},false);
+}
+
+function addKey();
