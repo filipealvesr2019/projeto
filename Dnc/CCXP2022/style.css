@@ -652,9 +652,9 @@ header {
     #descricao{
         height: 20rem;
     }
-    #titulo{
+    /*#titulo{
 
-    }
+    }*/
 }
 @media only screen and (max-width: 658px) and (min-width: 320px) {
     #titulo {
