@@ -37,13 +37,10 @@ img{
     
 
 }
-#
-#sideC{
-    
-}
+
 #ingressos{
     display: flex;
-    flex-: column;
+    flex-direction: column;
 
 }
 #img {
