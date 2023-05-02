@@ -1,5 +1,6 @@
-body {
 
+body{
+    
     font-family: Verdana;
     margin: 0;
     padding: 0;
@@ -1018,5 +1019,53 @@ header {
     #descricao{
         width: 60rem;
     }
+
+}
+
+img{
+    height: 15rem;
+    width: 15rem;
+}
+#sideA{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#descricao{
+    display: flex;
+    flex-direction: column;
+    background-color: #514988;
+}
+#titulo{
+    color: #F3C61F;
+}
+#sideB{
+   text-align: center;
+}
+#countDown{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    color:#514988 ;
+    
+
+}
+
+#ingressos{
+    display: flex;
+    flex-direction: column;
+
+}
+#img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+img{
+    width: 20%;
+    
 
 }
