@@ -143,7 +143,8 @@ header {
     box-shadow: 10px 10px 10px 10px gray;
 }
 .card-selected{
-    filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210));
+    filter: /* Black shadow with 10px blur */
+        drop-shadow(16px 16px 10px black);
 }
 @media only screen and (max-width: 653px) and (min-width: 280px) and (orientation: landscape) {
     #sideA {
