@@ -27,6 +27,14 @@ function countDown(){
 countDown();
 setInterval(countDown, 1000);
 
+
+function highlightCard(selector)
+{
+    var Element =  document.querySelector(selector);
+    Element.classList.toggle("card-highlight");
+}
+
+
 function addKey()
 {
     document.addEventListener('keydown', (event) => {
@@ -36,34 +44,34 @@ function addKey()
     var ingresso4 = document.getElementById("domingo");
 
     var code = event.code;
-    if (code == 'digite1'){
+    if (code == 'Digit1'){
         ingresso1.classList.toggle("card-highlight")
-        ingresso1.classList.remove("card-highlight")
-        ingresso1.classList.remove("card-highlight")
-        ingresso1.classList.remove("card-highlight")
+        ingresso2.classList.remove("card-highlight")
+        ingresso3.classList.remove("card-highlight")
+        ingresso4.classList.remove("card-highlight")
     }
 
-     if (code == 'digite2'){
+     if (code == 'Digit2'){
         ingresso1.classList.remove("card-highlight")
-        ingresso1.classList.toggle("card-highlight")
-        ingresso1.classList.remove("card-highlight")
-        ingresso1.classList.remove("card-highlight")
+        ingresso2.classList.toggle("card-highlight")
+        ingresso3.classList.remove("card-highlight")
+        ingresso4.classList.remove("card-highlight")
     }
 
-     if (code == 'digite3'){
+     if (code == 'Digit3'){
         ingresso1.classList.remove("card-highlight")
-        ingresso1.classList.remove("card-highlight")
-        ingresso1.classList.toggle("card-highlight")
-        ingresso1.classList.remove("card-highlight")
+        ingresso2.classList.remove("card-highlight")
+        ingresso3.classList.toggle("card-highlight")
+        ingresso4.classList.remove("card-highlight")
     }
 
-     if (code == 'digite4'){
+     if (code == 'Digit4'){
         ingresso1.classList.remove("card-highlight")
-        ingresso1.classList.remove("card-highlight")
-        ingresso1.classList.remove("card-highlight")
-        ingresso1.classList.toggle("card-highlight")
+        ingresso2.classList.remove("card-highlight")
+        ingresso3.classList.remove("card-highlight")
+        ingresso4.classList.toggle("card-highlight")
     }
-},false);
+},false)
 }
 
-function addKey();
+addKey();
