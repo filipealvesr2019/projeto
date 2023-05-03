@@ -1,3 +1,4 @@
+ingressos = []
 const dia = document.getElementById('dia');
 const hora = document.getElementById('hora');
 const minuto = document.getElementById('minuto');
@@ -75,3 +76,17 @@ function addKey()
 }
 
 addKey();
+
+
+function clickCard(selector){
+    var Element = document.querySelector(selector);
+    Element.classList.toggle("card-selected");
+    if (ingressos.includes(selector)) ingressos.pop(selector);
+    else(ingressos.push(selector))
+
+}
+
+function showcardSelected()
+{
+    if(ingressos.length > 0) alert("Ingressos selecionados " + ingressos);  
+}

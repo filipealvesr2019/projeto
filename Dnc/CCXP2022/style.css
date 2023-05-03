@@ -142,7 +142,9 @@ header {
 .card-highlight {
     box-shadow: 10px 10px 10px 10px gray;
 }
-
+.card-selected{
+    filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210));
+}
 @media only screen and (max-width: 653px) and (min-width: 280px) and (orientation: landscape) {
     #sideA {
 
