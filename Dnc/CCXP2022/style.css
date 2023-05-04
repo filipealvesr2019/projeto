@@ -140,8 +140,12 @@ header {
 
 }
 
-@media only screen and (max-width: 653px) and (min-width: 280px) {}
-
+.card-highlight {
+    box-shadow: 10px 10px 10px 10px gray;
+}
+.card-selected{
+    filter: /* Black shadow with 10px blur */ drop-shadow(16px 16px 10px black);
+}
 @media only screen and (max-width: 653px) and (min-width: 280px) and (orientation: landscape) {
     #sideA {
 
@@ -300,6 +304,7 @@ header {
     
     
         }
+    
 }
 
 @media only screen and (max-width: 1366px) and (min-width: 768px) {
@@ -405,7 +410,7 @@ header {
         width: 40rem;
 
     }
-
+   
     #btn {
         width: 20rem;
         height: 5rem;
@@ -415,6 +420,8 @@ header {
 
     #btn:hover {
         background-color: #FFD900;
+        color: #fcf8ef;
+        
     }
 
     #subtitle-cards {
@@ -558,6 +565,8 @@ header {
         padding-left: 4rem;
         font-size: 1.3rem;
     }
+
+   
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation: portrait) {
