@@ -18,46 +18,45 @@
       crossorigin="anonymous"
     ></script>
     <title>café shop</title>
-    <link href="https://fonts.cdnfonts.com/css/helvetica-2" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/helvetica-2" rel="stylesheet" />
   </head>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
-    @import url('https://fonts.cdnfonts.com/css/helvetica-2');
-    .text-logo{
-        font-family: 'Helvetica';
-        font-weight: 700;
-        color: #2A3342;
+    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap");
+    @import url("https://fonts.cdnfonts.com/css/helvetica-2");
+    .text-logo {
+      font-family: "Helvetica";
+      font-weight: 700;
+      color: #2a3342;
     }
-    .home{
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 600;
-        color:#2A3342;
+    .home {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      color: #2a3342;
+    }
+    .sobre {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      color: #2a3342;
+    }
+    .contato {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      color: #2a3342;
+    }
+    .btn-corner {
+      margin-left: 50rem;
+      display: block;
+      max-width: 768;
+    }
 
+    @media (min-width: 768px) {
+      .btn-mobile {
+        margin-left: 50rem;
+      }
     }
-    .sobre{
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 500;
-        color:#2A3342;
-    }
-    .contato{
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 500;
-        color:#2A3342;
-    }
-    @media only screen and (min-width: 768px) {
-       .btn-corner {
-      
-      margin-left:50rem;    
-      
-   
-    }
-}
-   
-    
-
   </style>
   <body>
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
@@ -68,7 +67,9 @@
           alt=""
           width="50"
           height="50"
-        /> <strong>Dnc Coffee</strong></a>
+        />
+        <strong>Dnc Coffee</strong></a
+      >
       <button
         type="button"
         data-bs-toggle="collapse"
@@ -91,15 +92,15 @@
           <li class="nav-item">
             <a href="#" class="nav-link contato">Contato</a>
           </li>
-          <li class="nav-item  ">
-            <button class="btn btn-light btn-corner">Fazer pedido</button>
+          <li class="nav-item">
+            <button class="btn btn-light btn-corner btn-mobile">
+              Fazer pedido
+            </button>
           </li>
         </ul>
       </div>
-       
-
     </nav>
-    
+
     <section>
       <img class="img-fluid" src="images/fundo.png" alt="" />
     </section>
@@ -131,7 +132,6 @@
           </div>
         </div>
 
-        
         <div class="col-md-3">
           <div class="card">
             <img src="images/imageC.png" class="card-img-top" alt="Image 2" />
