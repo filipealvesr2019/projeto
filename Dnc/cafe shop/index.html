@@ -47,12 +47,16 @@
         font-weight: 500;
         color:#2A3342;
     }
-    .btn-corner {
+    @media only screen and (min-width: 768px) {
+       .btn-corner {
       
-      top: 20px;
-      right: 20px;
+      margin-left:50rem;    
+      
    
     }
+}
+   
+    
 
   </style>
   <body>
@@ -87,9 +91,12 @@
           <li class="nav-item">
             <a href="#" class="nav-link contato">Contato</a>
           </li>
+          <li class="nav-item  ">
+            <button class="btn btn-light btn-corner">Fazer pedido</button>
+          </li>
         </ul>
       </div>
-       <button class="btn btn-light btn-corner mx-5">Fazer pedido</button>
+       
 
     </nav>
     
