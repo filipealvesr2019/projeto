@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <title>café shop</title>
+    <link href="https://fonts.cdnfonts.com/css/helvetica-2" rel="stylesheet" />
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap");
+    @import url("https://fonts.cdnfonts.com/css/helvetica-2");
+    .text-logo {
+      font-family: "Helvetica";
+      font-weight: 700;
+      color: #2a3342;
+    }
+    .home {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      color: #2a3342;
+    }
+    .sobre {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      color: #2a3342;
+    }
+    .contato {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      color: #2a3342;
+    }
+    .btn-corner {
+      margin-left: 50rem;
+      display: block;
+      max-width: 768;
+    }
+
+    
+      
+.card { 
+  width: 350px; 
+  height: 400px; 
+}
+
+
+
+  </style>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <a href="#" class="navbar-brand mb-0 h1 mx-4">
+        <img
+          class="d-inline-block text-logo"
+          src="images/Logo.png"
+          alt=""
+          width="50"
+          height="50"
+        />
+        <strong>Dnc Coffee</strong></a
+      >
+      <button
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        class="navbar-toggler"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link sobre"
+              data-bs-toggle="modal"
+              data-bs-target="#meuModal"
+              >Sobre</a
+            >
+            <div
+              class="modal fade"
+              id="meuModal"
+              tabindex="-1"
+              aria-labelledby="modalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel">Título do Modal</h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Fechar"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Conteúdo do modal.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Fechar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link contato">Contato</a>
+          </li>
+          <li >
+            <button class="btn btn-light btn-corner">Fazer pedido</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section>
+      <img class="img-fluid" src="images/fundo.png" alt="" />
+
+        <div class="container-fluid mt-4">
+    <div class="row" style="height: 100vh;">
+      <div class="col-md-3">
+        <!-- Card 1 -->
+        <div class="card h-90 w-100">
+          <img src="images/imageA.png" class="card-img-top" alt="Imagem 1">
+          <div class="card-body">
+            <p class="card-text">Nossa loja de café se encontra em um lugar, 100% fictício, porém caso se sinta interessado pode vir tomar um café conosco em nossa sede em São José dos Campos.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <!-- Card 2 -->
+        <div class="card h-90 w-100">
+          <img src="images/imageB.png" class="card-img-top" alt="Imagem 2">
+          <div class="card-body">
+            <p class="card-text">Nossa casa de café é a melhor da região, aqui você tem tudo que precisa, uma boa conversar, bons amigos e um ambiente sem igual. Aproveite, pois Melhor que a DNC não existe!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <!-- Card 3 -->
+        <div class="card h-80 w-100">
+          <img src="images/imageC.png" class="card-img-top" alt="Imagem 3">
+          <div class="card-body">
+            <p class="card-text">Por que a DNC? Porque podem contar sempre com um serviço genuíno, uma atmosfera acolhedora e uma incrível xícara de café, torrado por especialistas e preparado de forma enriquecedora.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <!-- Card 4 -->
+        <div class="card h-95 w-100">
+          <img src="images/imageD.png" class="card-img-top" alt="Imagem 4">
+          <div class="card-body">
+            <p class="card-text">A escola especialista em formar talentos, com foco em empregabilidade, migração de carreira e aumento de performance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    </section>
+   
+    
+  </body>
+</html>
