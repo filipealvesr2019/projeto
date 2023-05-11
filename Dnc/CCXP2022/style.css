@@ -6,6 +6,1031 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    padding: 15px;
+    background-color: #FFD900;
+
+
+}
+
+#alinhar {
+    width: 8rem;
+
+}
+
+#descricao {
+    display: flex;
+    flex-direction: column;
+    background-color: #514988;
+    text-align: center;
+}
+
+#titulo {
+    color: #F3C61F;
+    font-size: 1.6rem;
+}
+
+#data {
+    color: #FFFFFF;
+    font-size: 0.7rem;
+    margin-top: -0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+#conteudo {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 0.7rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+    white-space: nowrap;
+}
+
+#subtitle-cards {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    color: #F3C61F;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#subtitle {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    color: #E33881;
+    margin-top: -2rem;
+    font-size: 1rem;
+}
+
+#sideB {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#sideC {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#countDown {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    color: #514988;
+    font-size: 1.2rem;
+
+
+}
+
+#sideC {
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.text-wrap {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+
+
+
+
+
+
+
+}
+
+.text-wrap img {
+    width: 90%;
+
+
+}
+
+#btn {
+    font-size: clamp(1.2rem, 40%, 2rem);
+    border: 0;
+    border-radius: 10px;
+    background: #514988;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    color: #FFFFFF;
+    width: 15rem;
+    height: 3rem;
+    line-height: 3rem;
+
+
+}
+
+.card-highlight {
+    box-shadow: 10px 10px 10px 10px gray;
+}
+.card-selected{
+    filter: /* Black shadow with 10px blur */ drop-shadow(16px 16px 10px black);
+}
+@media only screen and (max-width: 653px) and (min-width: 280px) and (orientation: landscape) {
+    #sideA {
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    #sideB {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #countDown {
+
+        justify-content: center;
+
+    }
+
+    #sideC {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 2340px) and (min-width: 1080px)and (orientation: portrait){
+    header {
+            padding: 15px;
+            background-color: #FFD900;
+    
+    
+        }
+    
+        #alinhar {
+            width: 8rem;
+    
+        }
+    
+        #descricao {
+            display: flex;
+            flex-direction: column;
+            background-color: #514988;
+            text-align: center;
+            display: block;
+        }
+    
+        #titulo {
+            color: #F3C61F;
+            font-size: 1.6rem;
+        }
+    
+        #data {
+            color: #FFFFFF;
+            font-size: 0.7rem;
+            margin-top: -0.9rem;
+            margin-bottom: 1.5rem;
+        }
+    
+        #conteudo {
+            font-family: 'Verdana';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 9px;
+            line-height: 0.7rem;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+    
+            color: #FFFFFF;
+            margin-bottom: 2rem;
+            white-space: nowrap;
+        }
+    
+        #subtitle-cards {
+            font-family: 'Verdana';
+            font-style: normal;
+            font-weight: 700;
+            color: #F3C61F;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+    
+        #subtitle {
+            font-family: 'Verdana';
+            font-style: normal;
+            font-weight: 700;
+            color: #E33881;
+            margin-top: -2rem;
+            font-size: 1rem;
+        }
+    
+        #sideB {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        #sideC {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        #countDown {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            font-family: 'Verdana';
+            font-style: normal;
+            font-weight: 700;
+            color: #514988;
+            font-size: 1.2rem;
+    
+    
+        }
+    
+        #sideC {
+            display: grid;
+            grid-auto-flow: row;
+        }
+    
+        .text-wrap {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-gap: 1.5rem;
+            padding: 1rem;
+            margin-bottom: 2rem;
+    
+    
+    
+    
+    
+    
+    
+        }
+    
+        .text-wrap img {
+            width: 90%;
+    
+    
+        }
+    
+        #btn {
+            font-size: clamp(1.2rem, 40%, 2rem);
+            border: 0;
+            border-radius: 10px;
+            background: #514988;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin: 0 auto;
+            margin-bottom: 5rem;
+            color: #FFFFFF;
+            width: 15rem;
+            height: 3rem;
+            line-height: 3rem;
+    
+    
+        }
+    
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 768px) {
+    header {
+        height: 3rem;
+    }
+
+    #alinhar {
+        height: 3rem;
+        width: 10rem;
+        padding-left: 1.5rem;
+    }
+
+    #sideA {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        text-align: center;
+        height: 22rem;
+
+    }
+
+    #titulo {
+        font-size: 3rem;
+        margin-top: 1rem;
+    }
+
+    #data {
+        font-family: 'Verdana';
+        font-style: normal;
+
+        font-size: 1.1rem;
+        margin-top: -1.5rem;
+        margin-bottom: 2rem;
+
+
+    }
+
+    #descricao {
+        display: flex;
+        flex-direction: column;
+        height: 30rem;
+        width: 60rem;
+
+    }
+
+    #conteudo {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    video {
+        width: 95%;
+        justify-content: right;
+        background-image: cover;
+
+    }
+
+    #sideB {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        text-align: center;
+        height: 26rem;
+
+    }
+
+    #countDown p {
+        font-size: 2.4rem;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+
+    }
+
+    #sideC {
+        display: flex;
+        flex-direction: row;
+        margin-top: 8rem;
+
+
+    }
+
+    #aviso {
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        font-size: 1.2rem;
+        text-align: left;
+        padding-left: 2.5rem;
+
+    }
+
+    .text-wrap {
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 0px;
+        padding-left: 4rem;
+
+        width: 40rem;
+
+    }
+   
+    #btn {
+        width: 20rem;
+        height: 5rem;
+        line-height: 5rem;
+        margin-top: 5rem;
+    }
+
+    #btn:hover {
+        background-color: #FFD900;
+        color: #fcf8ef;
+        
+    }
+
+    #subtitle-cards {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+
+    }
+
+    #subtitle-cards strong {
+        padding-left: 4rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 1138px) and (min-width: 712px) and (orientation: landscape) {
+    header {
+        height: 3rem;
+    }
+
+    #alinhar {
+        height: 3rem;
+        width: 10rem;
+        padding-left: 1.5rem;
+    }
+
+    #sideA {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        text-align: center;
+        height: 22rem;
+
+    }
+
+    #titulo {
+        font-size: 3rem;
+        margin-top: 1rem;
+    }
+
+    #data {
+        font-family: 'Verdana';
+        font-style: normal;
+
+        font-size: 1.1rem;
+        margin-top: -1.5rem;
+        margin-bottom: 2rem;
+
+
+    }
+
+    #descricao {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #conteudo {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    video {
+        width: 95%;
+        justify-content: right;
+        background-image: cover;
+
+    }
+
+    #sideB {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        text-align: center;
+
+
+    }
+
+    #countDown p {
+        font-size: 2rem;
+
+        margin-top: -2rem;
+        margin-bottom: 5rem;
+
+    }
+
+    #sideC {
+        display: flex;
+        flex-direction: row;
+        margin-top: 8rem;
+
+
+    }
+
+    #aviso {
+
+        font-size: 1.3rem;
+        margin-top: -1.5rem;
+        margin-bottom: 0.5rem;
+        text-align: left;
+        padding-left: 2rem;
+
+    }
+
+    .text-wrap {
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 0px;
+        padding-left: 4rem;
+
+        width: 40rem;
+
+    }
+
+    #btn {
+        width: 20rem;
+        height: 5rem;
+        line-height: 5rem;
+        margin-top: 5rem;
+    }
+
+    #btn:hover {
+        background-color: #FFD900;
+    }
+
+    #subtitle-cards {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+
+    }
+
+    #subtitle-cards strong {
+        padding-left: 4rem;
+        font-size: 1.3rem;
+    }
+
+   
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation: portrait) {
+    header {
+        height: 3rem;
+    }
+
+    #alinhar {
+        height: 3rem;
+        width: 10rem;
+        padding-left: 1.5rem;
+    }
+    #titulo {
+        font-size: 8rem;
+        display: block;
+    }
+    #data{
+        margin-top: -5rem;
+        display: block;
+    }
+    #conteudo{
+        font-size: 3rem;
+    }
+    #sideA {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: center;
+
+    }
+
+    #descricao {
+        grid-row: 1;
+        display: grid;
+        justify-self: center;
+        width: 47rem;
+        height: 35rem;
+
+    }
+
+    #sideB {
+        grid-row: 2;
+        display: grid;
+        grid-auto-flow: row;
+        justify-content: center;
+        text-align: center;
+        padding-left: 5rem;
+    }
+
+    #sideC {
+        grid-row: 3;
+        display: grid;
+        margin-top: 35rem;
+
+    }
+    #countDown{
+        display: flex;
+        text-align: center;
+        margin-top: -4rem;
+        margin-bottom: 1rem;
+    }
+    #aviso{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    video {
+        width: 47rem;
+        background-image: cover;
+        display: flex;
+        align-items: center;
+    }
+
+    #subtitle-cards {
+        display: grid;
+        grid-auto-flow: row;
+    }
+    #btn{
+        margin-top:25rem;
+        margin-left: -30rem;
+        
+    }
+.imagem{
+        width: 100%;
+        margin-top: -1rem;
+
+    } 
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation: landscape){
+    #descricao{
+        height: 20rem;
+    }
+    /*#titulo{
+
+    }*/
+}
+@media only screen and (max-width: 658px) and (min-width: 320px) {
+    #titulo {
+        font-size: 1.8rem;
+    }
+    #data {
+        font-size: 0.9rem;
+        margin-top: -0.5rem;
+    }
+
+    #conteudo {
+        font-size: 0.7rem;
+        white-space: nowrap;
+        line-height: 1rem;
+    }
+}
+
+
+@media only screen and (max-width: 960px) and (min-width: 600px) and (orientation: Portrait) {
+    #titulo {
+        font-size: 2.8rem;
+        margin-top: 1.5rem;
+    }
+
+    #data {
+        font-size: 1.3rem;
+        margin-top: -1rem;
+        margin-bottom: 2.5rem;
+    }
+
+    #conteudo {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+
+    .text-wrap img {
+        width: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 3rem;
+        padding-top: 1rem;
+    }
+
+    #countDown {
+        font-size: 2rem;
+    }
+
+    #aviso {
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+    }
+
+    #sideC {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #btn {
+        width: 20rem;
+        height: 5rem;
+        line-height: 5rem;
+        border-radius: 15px;
+    }
+
+    #subtitle-cards {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 720px) and (orientation: Portrait){
+    #titulo{
+            font-size: 4rem;
+    }
+    #data{
+        font-size: 1.5rem;
+        margin-top: -2.5rem;
+    }
+    #conteudo{
+        font-size: 1.5rem;
+        line-height:1.8rem;
+    }
+}
+@media only screen and (max-width: 1440px) and (min-width: 900px){
+    header {
+            height: 3rem;
+        }
+    
+        #alinhar {
+            height: 3rem;
+            width: 10rem;
+            padding-left: 1.5rem;
+        }
+    
+        #sideA {
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            text-align: center;
+            height: 22rem;
+    
+        }
+    
+        #titulo {
+            font-size: 3rem;
+            margin-top: 1rem;
+        }
+    
+        #data {
+            font-family: 'Verdana';
+            font-style: normal;
+    
+            font-size: 1.1rem;
+            margin-top: -1.5rem;
+            margin-bottom: 2rem;
+    
+    
+        }
+    
+        #descricao {
+            display: flex;
+            flex-direction: column;
+            height: 30rem;
+            width: 60rem;
+    
+        }
+    
+        #conteudo {
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+            font-family: 'Verdana';
+            font-style: normal;
+            font-weight: 400;
+        }
+    
+        video {
+            width: 95%;
+            justify-content: right;
+            background-image: cover;
+    
+        }
+    
+        #sideB {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            justify-content: center;
+            text-align: center;
+            height: 26rem;
+    
+        }
+    
+        #countDown p {
+            font-size: 2.4rem;
+            margin-top: 5rem;
+            margin-bottom: 1rem;
+    
+        }
+    
+        #sideC {
+            display: flex;
+            flex-direction: row;
+            margin-top: 8rem;
+    
+    
+        }
+    
+        #aviso {
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+            text-align: left;
+            padding-left: 2.5rem;
+    
+        }
+    
+        .text-wrap {
+            display: grid;
+            grid-auto-flow: column;
+            grid-template-columns: repeat(4, auto);
+            grid-gap: 0px;
+            padding-left: 4rem;
+    
+            width: 40rem;
+    
+        }
+    
+        #btn {
+            width: 20rem;
+            height: 5rem;
+            line-height: 5rem;
+            margin-top: 5rem;
+        }
+    
+        #btn:hover {
+            background-color: #FFD900;
+        }
+    
+        #subtitle-cards {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+    
+    
+        }
+    
+        #subtitle-cards strong {
+            padding-left: 4rem;
+            font-size: 1.3rem;
+        }
+}
+
+
+@media only screen and (max-width: 1440px) and (min-width: 900px) and (orientation: Portrait){
+    header {
+            height: 3rem;
+        }
+    
+        #alinhar {
+            height: 3rem;
+            width: 10rem;
+            padding-left: 1.5rem;
+        }
+    
+        #sideA {
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            text-align: center;
+            height: 22rem;
+    
+        }
+    
+        #titulo {
+            font-size: 3rem;
+            margin-top: 1rem;
+        }
+    
+        #data {
+            font-family: 'Verdana';
+            font-style: normal;
+    
+            font-size: 1.1rem;
+            margin-top: -1.5rem;
+            margin-bottom: 2rem;
+    
+    
+        }
+    
+        #descricao {
+            display: flex;
+            flex-direction: column;
+            height: 30rem;
+            width: 60rem;
+    
+        }
+    
+        #conteudo {
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+            font-family: 'Verdana';
+            font-style: normal;
+            font-weight: 400;
+        }
+    
+        video {
+            width: 95%;
+            justify-content: right;
+            background-image: cover;
+    
+        }
+    
+        #sideB {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            justify-content: center;
+            text-align: center;
+            height: 26rem;
+    
+        }
+    
+        #countDown p {
+            font-size: 2.4rem;
+            margin-top: 5rem;
+            margin-bottom: 1rem;
+    
+        }
+    
+        #sideC {
+            display: flex;
+            flex-direction: row;
+            margin-top: 8rem;
+    
+    
+        }
+    
+        #aviso {
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+            text-align: left;
+            padding-left: 2.5rem;
+    
+        }
+    
+        .text-wrap {
+            display: grid;
+            grid-auto-flow: column;
+            grid-template-columns: repeat(4, auto);
+            grid-gap: 0px;
+            padding-left: 4rem;
+    
+            width: 40rem;
+    
+        }
+    
+        #btn {
+            width: 20rem;
+            height: 5rem;
+            line-height: 5rem;
+            margin-top: 5rem;
+        }
+    
+        #btn:hover {
+            background-color: #FFD900;
+        }
+    
+        #subtitle-cards {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+    
+    
+        }
+    
+        #subtitle-cards strong {
+            padding-left: 4rem;
+            font-size: 1.3rem;
+        }
+
+    }
+
+@media only screen and (max-width: 1280px) and (min-width: 800px) and (orientation: Portrait) {
+    #titulo {
+        font-size: 4rem;
+    }
+
+    #data {
+        font-size: 1.5rem;
+        margin-top: -2.5rem;
+    }
+
+    #conteudo {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+    #descricao{
+        width: 60rem;
+    }
+
+}
+
 img{
     height: 15rem;
     width: 15rem;
@@ -52,6 +1077,4 @@ img{
     width: 20%;
     
 
-}
-@media only screen and (max-width: 1440px) and (min-width: 760px){
 }
