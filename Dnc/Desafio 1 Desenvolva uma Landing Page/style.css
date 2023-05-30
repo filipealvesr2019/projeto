@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* heeader*/
+header{
+    background-color: #303030;
+    height: 250px;
+}
+
+#logo{
+    color: white;
+    font-family: 'inter';
+    font-weight: 700;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+#titulos{
+    padding: 1rem;
+}
+h1{
+    color: white;
+    font-family: 'inter';
+    font-weight: 600;
+}
+
+h2{
+    color: white;
+    font-family: 'inter';
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+
+#secaoA{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+background-color:#F9F9F9;
+    height: 100px;
+}
+#secaoB{
+    display: flex;
+    height: 100px;
+}
+img{
+    height: 300%;
+}
+p{
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.8rem;
+        display: flex;
+        align-items: center;
+        padding: 3rem 0 0 3rem;
+}
+
+strong{
+    font-size: 1.5rem;
+}
