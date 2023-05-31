@@ -17,7 +17,7 @@ header{
     font-size: 1.5rem;
 }
 #titulos{
-    padding: 1rem;
+    padding: 2rem;
 }
 h1{
     color: white;
@@ -68,9 +68,29 @@ strong{
 #texto{
     display: flex;
     flex-direction: column;
+    margin-top: 6rem;
+    
 }
 
 footer{
     background-color: #303030;
-    height: 250px;
+    height: 400px;
+}
+
+
+#tex1{
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.7rem;
+        margin-bottom: 2rem;
+}
+
+#tex2{
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        color: grey;
+
 }
