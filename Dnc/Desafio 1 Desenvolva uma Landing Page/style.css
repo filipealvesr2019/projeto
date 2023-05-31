@@ -29,7 +29,7 @@ h2{
     color: white;
     font-family: 'inter';
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-top: 1rem;
 }
 
@@ -39,15 +39,17 @@ h2{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-background-color:#F9F9F9;
+    background-color:#F9F9F9;
     height: 100px;
 }
 #secaoB{
     display: flex;
-    height: 100px;
+    justify-content: space-around;
+    height: 300px;
+    padding: 3rem;
 }
 img{
-    height: 300%;
+    height: 80%;
     
 
 }
@@ -63,8 +65,12 @@ strong{
     font-size: 1.5rem;
 }
 
-#sobre{
-
+#texto{
     display: flex;
+    flex-direction: column;
+}
 
+footer{
+    background-color: #303030;
+    height: 250px;
 }
